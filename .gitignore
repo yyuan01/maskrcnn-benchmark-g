@@ -1,0 +1,58 @@
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+maskrcnn_benchmark.egg-info/
+build/
+dist/
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+
+
+# ipython/jupyter notebooks
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Pycharm editor settings
+.idea
+
+# vscode editor settings
+.vscode
+
+# MacOS
+.DS_Store
+
+# project dirs
+/datasets
+/models
+/output
+
+apex/
+cityscapesScripts/
+cocoapi/
+configs/
+detectron2/
+docker/
+INSTALL.md/
+LICENSE/
+maskrcnn_benchmark/
+MODEL_ZOO.md
+poisson_blend/
+pytorch-CycleGAN-and-pix2pix/
+maskrcnn-benchmark/ 
+
+**/*.jpg
+**/*.png
+**/*.csv
+!**/*.npy
+!**/*.py
+!**/*.txt
+!**/*.ipynb
